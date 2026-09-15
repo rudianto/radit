@@ -31,15 +31,21 @@ export const invitationData = {
 
     sessions: [
       {
-        name: "Prosesi Doa & Tasyakuran",
+        name: "Pembukaan Acara & Sambutan keluarga",
         time: "08.30 - 10.00 WIB",
-        description: "Pembacaan Ayat Suci Al-Qur'an, Tausiyah Singkat & Doa Bersama untuk Ananda Raditya.",
+        description: "pembukaan acara syukuran khitanan ananda Raditya.",
         icon: "BookOpen",
       },
       {
-        name: "Ramah Tamah & Resepsi",
-        time: "10.00 - 14.00 WIB",
-        description: "Syukuran, santap siang bersama, ucapan selamat & foto kenangan bersama keluarga.",
+        name: "Saweran",
+        time: "10.00 - selesai",
+        description: "Upacara adat Saweran.",
+        icon: "Utensils",
+      },
+      {
+        name: "Resepsi & Ramah Tamah",
+        time: "11.00 - selesai",
+        description: "Acara resepsi dan ramah tamah syukuran khitanan ananda Raditya.",
         icon: "Utensils",
       }
     ],
@@ -48,9 +54,9 @@ export const invitationData = {
       venue: "Kediaman Keluarga Bpk. Ecep Iyus Mulyana ",
       subVenue: "Kp.Cisitu RT02 RW09 Ds.Cimekar Kecamatan Cileunyi Kabupaten Bandung (40623)",
       city: "Bandung, Jawa Barat",
-      googleMapsUrl: "https://maps.google.com/?q=Bandung",
-      wazeUrl: "https://waze.com/ul?q=Bandung",
-      embedMapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d107.57311634563855!3d-6.903444341687889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1710000000000!5m2!1sen!2sid",
+      googleMapsUrl: "https://maps.google.com/maps?q=-6.9226656%2C107.7411433&z=17&hl=en",
+      wazeUrl: "https://waze.com/ul?ll=-6.9226656,107.7411433&navigate=yes",
+      embedMapSrc: "https://maps.google.com/maps?q=-6.9226656,107.7411433&hl=id&z=17&output=embed",
     }
   },
 
