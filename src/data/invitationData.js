@@ -62,15 +62,15 @@ export const invitationData = {
         accountNumber: "732801003512508 ",
         accountHolder: "Ecep Iyus Mulyana",
         color: "from-blue-600 to-blue-800",
-        logoText: "BCA",
+        logoText: "BRI",
       },
       {
         bank: "BRI",
         accountNumber: "074901001935509",
         accountHolder: "Yulianti",
         color: "from-sky-700 to-indigo-900",
-        logoText: "MANDIRI",
-      }
+        logoText: "BRI",
+      },
       {
         bank: "DANA",
         accountNumber: "082129264665",
