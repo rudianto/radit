@@ -1,6 +1,6 @@
 export const invitationData = {
   child: {
-    fullName: "Raditya Putra Mulyana",
+    fullName: "Raditya Rizky Mulyana",
     nickname: "Radit",
     callName: "Ananda Raditya",
     tagline: "Tasyakuran & Walimatul Khitan",
@@ -12,7 +12,7 @@ export const invitationData = {
   },
 
   meta: {
-    title: "Undangan Khitanan Raditya Putra Mulyana",
+    title: "Undangan Khitanan Raditya Rizky Mulyana",
     greetingDefault: "Tamu Undangan",
     bismillah: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
   },
@@ -51,7 +51,7 @@ export const invitationData = {
     ],
 
     location: {
-      venue: "Kediaman Keluarga Bpk. Ecep Iyus Mulyana ",
+      venue: "Kediaman Keluarga Bpk. Ecep Uyus Mulyana ",
       subVenue: "Kp.Cisitu RT02 RW09 Ds.Cimekar Kecamatan Cileunyi Kabupaten Bandung (40623)",
       city: "Bandung, Jawa Barat",
       googleMapsUrl: "https://maps.google.com/maps?q=-6.9226656%2C107.7411433&z=17&hl=en",
@@ -86,7 +86,7 @@ export const invitationData = {
       }
     ],
     giftAddress: {
-      recipient: "Keluarga Bpk. Ecep Iyus Mulyana (Khitanan Raditya)",
+      recipient: "Keluarga Bpk. Ecep Uyus Mulyana (Khitanan Raditya)",
       phone: "0812-5337-4373",
       fullAddress: "Kp.Cisitu RT02 RW09 Ds.Cimekar Kecamatan Cileunyi Kabupaten Bandung (40623)",
     }
@@ -137,7 +137,7 @@ export const invitationData = {
       name: "Keluarga Besar Opa Suryana",
       attendance: "Hadir",
       pax: 3,
-      message: "Selamat atas khitanan cucuku tersayang Raditya Putra Mulyana! Semoga lekas sembuh, menjadi anak yang sholeh, cerdas, berbakti kepada orang tua, dan menjadi kebanggaan kita semua. Aamiin ya Rabbal Alamin.",
+      message: "Selamat atas khitanan cucuku tersayang Raditya Rizky Mulyana! Semoga lekas sembuh, menjadi anak yang sholeh, cerdas, berbakti kepada orang tua, dan menjadi kebanggaan kita semua. Aamiin ya Rabbal Alamin.",
       time: "1 jam yang lalu",
       likes: 12,
     },
