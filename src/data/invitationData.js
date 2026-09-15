@@ -10,7 +10,7 @@ export const invitationData = {
     },
     birthOrder: "Putra Pertama",
   },
-  
+
   meta: {
     title: "Undangan Khitanan Raditya Putra Mulyana",
     greetingDefault: "Tamu Undangan",
@@ -26,9 +26,9 @@ export const invitationData = {
   event: {
     // Target date for countdown (Year, Month index 0-11, Day, Hour, Minute)
     targetDate: "2026-10-25T09:00:00+07:00",
-    formattedDate: "Minggu, 25 Oktober 2026",
-    hijriDate: "14 Rabiul Akhir 1448 H",
-    
+    formattedDate: "Minggu, 27 september 2026",
+    // hijriDate: "14 Rabiul Akhir 1448 H",
+
     sessions: [
       {
         name: "Prosesi Doa & Tasyakuran",
@@ -45,8 +45,8 @@ export const invitationData = {
     ],
 
     location: {
-      venue: "Kediaman Keluarga Bpk. Mulyana (Puri Anggrek Residence)",
-      subVenue: "Blok B3 No. 12, Kompleks Cendrawasih Permai",
+      venue: "Kediaman Keluarga Bpk. Ecep Iyus Mulyana ",
+      subVenue: "Kp.Cisitu RT02 RW09 Ds.Cimekar Kecamatan Cileunyi Kabupaten Bandung (40623)",
       city: "Bandung, Jawa Barat",
       googleMapsUrl: "https://maps.google.com/?q=Bandung",
       wazeUrl: "https://waze.com/ul?q=Bandung",
@@ -58,38 +58,31 @@ export const invitationData = {
     note: "Doa restu Anda merupakan karunia yang sangat berarti bagi kami. Namun jika memberi adalah ungkapan tanda kasih, Anda dapat memberikan tanda kasih secara cashless melalui nomor rekening berikut:",
     accounts: [
       {
-        bank: "BCA",
-        accountNumber: "7820394812",
-        accountHolder: "MULYANA",
+        bank: "BRI",
+        accountNumber: "732801003512508 ",
+        accountHolder: "Ecep Iyus Mulyana",
         color: "from-blue-600 to-blue-800",
         logoText: "BCA",
       },
       {
-        bank: "Bank Mandiri",
-        accountNumber: "1310019283746",
-        accountHolder: "MULYANA",
+        bank: "BRI",
+        accountNumber: "074901001935509",
+        accountHolder: "Yulianti",
         color: "from-sky-700 to-indigo-900",
         logoText: "MANDIRI",
-      },
+      }
       {
-        bank: "BSI (Bank Syariah)",
-        accountNumber: "7128394015",
-        accountHolder: "MULYANA",
-        color: "from-emerald-600 to-teal-800",
-        logoText: "BSI",
-      },
-      {
-        bank: "DANA / GoPay",
-        accountNumber: "081223344556",
-        accountHolder: "MULYANA",
+        bank: "DANA",
+        accountNumber: "082129264665",
+        accountHolder: "Yulianti",
         color: "from-cyan-500 to-blue-600",
         logoText: "E-WALLET",
       }
     ],
     giftAddress: {
-      recipient: "Keluarga Bpk. Mulyana (Khitanan Raditya)",
-      phone: "0812-2334-4556",
-      fullAddress: "Puri Anggrek Residence Blok B3 No. 12, Kompleks Cendrawasih Permai, Bandung, Jawa Barat 40152",
+      recipient: "Keluarga Bpk. Ecep Iyus Mulyana (Khitanan Raditya)",
+      phone: "0812-5337-4373",
+      fullAddress: "Kp.Cisitu RT02 RW09 Ds.Cimekar Kecamatan Cileunyi Kabupaten Bandung (40623)",
     }
   },
 
@@ -110,6 +103,7 @@ export const invitationData = {
       category: "Aktivitas",
       tag: "Anak Tangguh",
       color: "from-sky-500 to-blue-600",
+      image: "/radit-2.jpe",
     },
     {
       id: 3,
@@ -118,6 +112,7 @@ export const invitationData = {
       category: "Ibadah",
       tag: "Calon Pemimpin",
       color: "from-amber-400 to-yellow-600",
+      image: "/radit-3.jpg",
     },
     {
       id: 4,
@@ -126,6 +121,7 @@ export const invitationData = {
       category: "Keluarga",
       tag: "Keluarga Bahagia",
       color: "from-royal-600 to-cerulean-600",
+      image: "/radit-4.jpg",
     }
   ],
 
