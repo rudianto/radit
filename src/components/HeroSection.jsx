@@ -39,9 +39,9 @@ export const HeroSection = () => {
           <Crown className="w-9 h-9 text-gold-400 mx-auto" />
         </div>
 
-        {/* Foto Ananda Raditya (radit-1.jpe) */}
+        {/* Foto Ananda Raditya (radit-1.jpg) */}
         <div className="my-3">
-          <BoyAvatar imageSrc="/radit-1.jpe" className="w-48 h-48 sm:w-56 sm:h-56 md:w-60 md:h-60" />
+          <BoyAvatar imageSrc="/radit-1.jpg" className="w-48 h-48 sm:w-56 sm:h-56 md:w-60 md:h-60" />
         </div>
 
         {/* Celebrant Name */}

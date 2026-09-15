@@ -41,6 +41,13 @@ export const GallerySection = () => {
                     src={item.image}
                     alt={item.title}
                     className="absolute inset-0 w-full h-full object-cover object-[center_15%] group-hover:scale-105 transition-transform duration-500"
+                    onError={(e) => {
+                      if (e.currentTarget.src.endsWith('.jpg')) {
+                        e.currentTarget.src = e.currentTarget.src.replace(/\.jpg$/, '.jpeg');
+                      } else if (e.currentTarget.src.endsWith('.jpeg')) {
+                        e.currentTarget.src = e.currentTarget.src.replace(/\.jpeg$/, '.jpg');
+                      }
+                    }}
                   />
                 )}
                 {item.image && (
@@ -113,6 +120,13 @@ export const GallerySection = () => {
                     src={selectedPhoto.image}
                     alt={selectedPhoto.title}
                     className="w-full h-full object-cover object-[center_15%]"
+                    onError={(e) => {
+                      if (e.currentTarget.src.endsWith('.jpg')) {
+                        e.currentTarget.src = e.currentTarget.src.replace(/\.jpg$/, '.jpeg');
+                      } else if (e.currentTarget.src.endsWith('.jpeg')) {
+                        e.currentTarget.src = e.currentTarget.src.replace(/\.jpeg$/, '.jpg');
+                      }
+                    }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
                   <div className="absolute bottom-3 left-4 right-4 z-10">

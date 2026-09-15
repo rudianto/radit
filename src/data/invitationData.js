@@ -24,9 +24,9 @@ export const invitationData = {
   },
 
   event: {
-    // Target date for countdown (Year, Month index 0-11, Day, Hour, Minute)
-    targetDate: "2026-10-25T09:00:00+07:00",
-    formattedDate: "Minggu, 27 september 2026",
+    // Target date for countdown (27 September 2026, 08:30 WIB)
+    targetDate: "2026-09-27T08:30:00+07:00",
+    formattedDate: "Minggu, 27 September 2026",
     // hijriDate: "14 Rabiul Akhir 1448 H",
 
     sessions: [
@@ -94,7 +94,7 @@ export const invitationData = {
       category: "Ceria",
       tag: "Pangeran Cilik",
       color: "from-blue-500 to-cyan-400",
-      image: "/radit-1.jpe",
+      image: "/radit-1.jpg",
     },
     {
       id: 2,
@@ -103,7 +103,7 @@ export const invitationData = {
       category: "Aktivitas",
       tag: "Anak Tangguh",
       color: "from-sky-500 to-blue-600",
-      image: "/radit-2.jpe",
+      image: "/radit-2.jpg",
     },
     {
       id: 3,

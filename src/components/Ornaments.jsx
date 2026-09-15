@@ -54,8 +54,8 @@ export const CloudShape = ({ className = "w-24 h-14 text-white/10" }) => (
 );
 
 // Boy Hero Photo (Raditya Putra Mulyana)
-// Replaced cartoon illustration with real photo from /radit-1.jpe
-export const BoyAvatar = ({ className = "w-48 h-48 sm:w-56 sm:h-56", imageSrc = "/radit-1.jpe" }) => (
+// Replaced cartoon illustration with real photo from /radit-1.jpg
+export const BoyAvatar = ({ className = "w-48 h-48 sm:w-56 sm:h-56", imageSrc = "/radit-1.jpg" }) => (
   <div className={`relative inline-flex items-center justify-center select-none ${className}`}>
     {/* Outer Glowing Rings with Royal Islamic Gold & Blue Accent */}
     <div className="absolute -inset-1.5 rounded-full bg-gradient-to-tr from-gold-400 via-sky-400 to-amber-300 p-[3px] animate-pulseGlow shadow-2xl shadow-gold-500/30">

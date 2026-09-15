@@ -37,9 +37,9 @@ export const EventCountdown = () => {
   }, [targetTime]);
 
   const handleAddToCalendar = () => {
-    // Generate Google Calendar Link
-    const startTime = "20261025T013000Z"; // 08:30 WIB (UTC+7) = 01:30 UTC
-    const endTime = "20261025T070000Z";   // 14:00 WIB (UTC+7) = 07:00 UTC
+    // Generate Google Calendar Link (27 September 2026)
+    const startTime = "20260927T013000Z"; // 08:30 WIB (UTC+7) = 01:30 UTC
+    const endTime = "20260927T070000Z";   // 14:00 WIB (UTC+7) = 07:00 UTC
     const title = encodeURIComponent(`Tasyakuran Khitanan ${child.fullName}`);
     const details = encodeURIComponent(
       `Tasyakuran & Walimatul Khitan ananda ${child.fullName}. Bertempat di ${event.location.venue}, ${event.location.subVenue}, ${event.location.city}.`
